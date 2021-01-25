@@ -1,0 +1,11 @@
+{
+    "name": "madscience-perforcehelper",
+    "version" : "0.0.1",
+    "author": "shukri.adams@gmail.com",
+    "description" : "perforce utils",
+    "license": "MIT",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/shukriadams/madscience-perforcehelper.git"
+    }
+}
