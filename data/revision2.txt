@@ -1,0 +1,1537 @@
+Change 44 by myuser@main_studio on 2020/12/11 00:48:12
+
+	- cleaned up arrangement on The project
+	- added bass to The project
+	- added quick dbeat test 
+
+Affected files ...
+
+... //studio/main/projects/The project/The project/03-guitar raw 1-201119_2218.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201119_2220.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201119_2313.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201120_0209.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201120_0210.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2121-glued.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2122-glued.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2123-01-glued.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2124-glued.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2132-01.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2132.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2134-01.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2134.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2147-01.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2147-02.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2147.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201123_2148.wav#2 delete
+... //studio/main/projects/The project/The project/03-guitar raw 1-201205_1709-glued.wav#1 add
+... //studio/main/projects/The project/The project/04-guitar raw 1-201205_1736.wav#1 add
+... //studio/main/projects/The project/The project/04-guitar raw 1-201209_0045-01-glued.wav#1 add
+... //studio/main/projects/The project/The project/04-guitar raw 1-201209_0047-01-glued.wav#1 add
+... //studio/main/projects/The project/The project/05-guitar raw2-201209_0055.wav#1 add
+... //studio/main/projects/The project/The project/05-guitar raw2-201209_0139-01-glued.wav#1 add
+... //studio/main/projects/The project/The project/05-guitar raw2-201209_0139-02-glued.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0123-glued.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0128-01.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0132-glued.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0132.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0134.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0137-02.wav#1 add
+... //studio/main/projects/The project/The project/10-bass-201211_0140.wav#1 add
+... //studio/main/projects/The project/The project/10-vocals-201202_1441.wav#2 delete
+... //studio/main/projects/The project/The project/10-vocals-201202_1442.wav#2 delete
+... //studio/main/projects/The project/The project/11-vocals-201208_0937.wav#1 add
+... //studio/main/projects/The project/The project/The project.RPP#4 edit
+... //studio/main/projects/crust/d-beat/04-guitar raw 1-201209_1843-01-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1845-01-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1846-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1847.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1850.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1856.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1857.wav#1 add
+... //studio/main/projects/crust/d-beat/05-guitar raw2-201209_1900.wav#1 add
+... //studio/main/projects/crust/d-beat/10-bass-201209_1943-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/11-bass-201209_1951-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/11-bass-201209_1952-glued.wav#1 add
+... //studio/main/projects/crust/d-beat/dbeat dad.RPP#1 add
+... //studio/main/reaper/reaper-midihw.ini#13 edit
+... //studio/main/reaper/reaper-recentfx.ini#12 edit
+... //studio/main/reaper/reaper-reginfo2.ini#13 edit
+... //studio/main/reaper/reaper.ini#13 edit
+
+Differences ...
+
+==== //studio/main/projects/The project/The project/The project.RPP#4 (text) ====
+
+1c1
+< <REAPER_PROJECT 0.1 "5.986/x64" 1606917532
+---
+> <REAPER_PROJECT 0.1 "5.986/x64" 1607647606
+17,18c17,18
+<   CURSOR 22.73684210526316
+<   ZOOM 9.34638789871795 0 0
+---
+>   CURSOR 2.52631578947368
+>   ZOOM 16.15055828898462 765 0
+30,32c30,31
+<   RENDER_FILE ""
+<   RENDER_PATTERN ""
+<   RENDER_FMT 0 2 0
+---
+>   RENDER_FILE "D:\_studio\projects\The project\The project\The project.mp3"
+>   RENDER_FMT 0 2 44100
+34c33
+<   RENDER_RANGE 1 0 0 18 1000
+---
+>   RENDER_RANGE 2 0 0 18 1000
+45a45
+>     bDNwbQABAADoAwAAAgAAAP////8EAAAAAAEAAAAAAAA=
+67c67
+<   MASTER_VOLUME 0.27436420208733 0 -1 -1 1
+---
+>   MASTER_VOLUME 0.30302350576016 0 -1 -1 1
+109a110,133
+>   <TRACK {DD12F799-82E0-4807-AAB9-B6D42999F14F}
+>     NAME ""
+>     PEAKCOL 16576
+>     BEAT -1
+>     AUTOMODE 0
+>     VOLPAN 1 0 -1 -1 1
+>     MUTESOLO 1 0 0
+>     IPHASE 0
+>     ISBUS 0 0
+>     BUSCOMP 0 0
+>     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+>     FREEMODE 0
+>     SEL 0
+>     REC 0 0 0 0 0 0 0
+>     VU 2
+>     TRACKHEIGHT 0 0 0
+>     INQ 0 0 0 0.5 100 0 0 100
+>     NCHAN 2
+>     FX 1
+>     TRACKID {DD12F799-82E0-4807-AAB9-B6D42999F14F}
+>     PERF 0
+>     MIDIOUT -1
+>     MAINSEND 1 0
+>   >
+134c158
+<       WNDRECT 581 264 977 662
+---
+>       WNDRECT 1162 273 977 662
+243c267
+<       WNDRECT 570 485 527 390
+---
+>       WNDRECT 1634 452 557 320
+245c269
+<       LASTSEL 0
+---
+>       LASTSEL 1
+256a281,290
+>       BYPASS 0 0 0
+>       <VST "VST: GGate (GVST)" GGate.dll 0 "" 1735999846<56535467794166676761746500000000> ""
+>         ZkF5Z+9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAFAAAAAAAAAAAABAA
+>         776t3g3wrd5SuJ49AAAAAArXIzw=
+>         QmFzaWMgZ2F0ZQBCYXNpYyBnYXRlABAAAAA=
+>       >
+>       PRESETNAME "Basic gate"
+>       FLOATPOS 0 0 0 0
+>       FXID {5028012E-4616-4CEB-8054-AC6BCC6E631B}
+>       WAK 0
+261c295
+<       LENGTH 40.42105859889653
+---
+>       LENGTH 40.42104308390023
+266a301
+>       COLOR 26079548 R
+268,270c303,305
+<       IGUID {1B198A0F-D9F8-4F62-93C8-AAD94EFF2ADF}
+<       IID 158
+<       NAME "03-guitar raw 1-201119_2230.wav"
+---
+>       IGUID {EBF015B7-76C1-4C87-932F-FA0084189325}
+>       IID 401
+>       NAME "04-guitar raw 1-201209_0047-01-glued.wav"
+272c307
+<       SOFFS 1.26315789471846
+---
+>       SOFFS 0
+275,276c310
+<       GUID {21296A4A-2A6E-46D1-AEAB-DC31058F1555}
+<       RECPASS 71
+---
+>       GUID {C1F0FAEA-FCE1-41A5-9D1D-4D45AA58C8E5}
+278c312
+<         FILE "03-guitar raw 1-201119_2230.wav"
+---
+>         FILE "04-guitar raw 1-201209_0047-01-glued.wav"
+282c316
+<       POSITION 42.94737438835183
+---
+>       POSITION 42.94735887335553
+284c318
+<       LENGTH 20.21052034849027
+---
+>       LENGTH 20.21053586348657
+291,293c325,327
+<       IGUID {B2579999-AE53-45E7-9843-C300DD906F32}
+<       IID 179
+<       NAME "03-guitar raw 1-201119_2313.wav"
+---
+>       IGUID {A4CB899D-005D-4E6F-BF45-4468E5EC0E15}
+>       IID 402
+>       NAME "03-guitar raw 1-201205_1709-glued.wav"
+295c329
+<       SOFFS 1.89476667860126
+---
+>       SOFFS 0
+298,299c332
+<       GUID {7BAC1B53-B9DA-4CD6-AB0A-6A64E7780BE0}
+<       RECPASS 87
+---
+>       GUID {CDD1A4F0-30FA-4360-874C-EE48AB49488B}
+301c334
+<         FILE "03-guitar raw 1-201119_2313.wav"
+---
+>         FILE "03-guitar raw 1-201205_1709-glued.wav"
+307c340
+<       LENGTH 20.21052631578947
+---
+>       LENGTH 20.21052631582624
+312a346
+>       COLOR 26079548 R
+314,316c348,350
+<       IGUID {6FE1B6A3-07FE-41FB-9D83-AFFB051A610C}
+<       IID 158
+<       NAME "03-guitar raw 1-201119_2230.wav"
+---
+>       IGUID {2B73FB16-66E7-42F6-A4BD-87B35297DFE0}
+>       IID 401
+>       NAME "04-guitar raw 1-201209_0047-01-glued.wav"
+318c352
+<       SOFFS 1.26315789471846
+---
+>       SOFFS 0
+321,322c355
+<       GUID {6EC14FD1-CB3D-401F-B0B2-CB523ED97E2D}
+<       RECPASS 71
+---
+>       GUID {95875ECB-D8A2-4EAD-A126-6DE2B033E1BB}
+324c357
+<         FILE "03-guitar raw 1-201119_2230.wav"
+---
+>         FILE "04-guitar raw 1-201209_0047-01-glued.wav"
+330c363
+<       LENGTH 10.10526315789464
+---
+>       LENGTH 20.21052631578938
+337,339c370,372
+<       IGUID {8848FFF8-A061-4ED2-BDDF-4F2D3DF299C1}
+<       IID 264
+<       NAME "03-guitar raw 1-201123_2121-glued.wav"
+---
+>       IGUID {E962F780-0B2B-4199-85AE-9CEE06AAE387}
+>       IID 335
+>       NAME "04-guitar raw 1-201205_1736.wav"
+341c374
+<       SOFFS 0
+---
+>       SOFFS 3.78946413653181
+344c377,378
+<       GUID {19AD1514-0486-42BF-ABAD-27A2FE2979D1}
+---
+>       GUID {8FE95728-5600-45BE-A9F9-BD44914AB330}
+>       RECPASS 123
+346c380
+<         FILE "03-guitar raw 1-201123_2121-glued.wav"
+---
+>         FILE "04-guitar raw 1-201205_1736.wav"
+350,371d383
+<       POSITION 93.47368421052622
+<       SNAPOFFS 0
+<       LENGTH 10.10526315789474
+<       LOOP 1
+<       ALLTAKES 0
+<       FADEIN 1 0.01 0 1 0 0
+<       FADEOUT 1 0.01 0 1 0 0
+<       MUTE 0
+<       SEL 0
+<       IGUID {F3F48C5F-1251-4869-A3AC-8A508B22BD31}
+<       IID 270
+<       NAME "03-guitar raw 1-201123_2123-01-glued.wav"
+<       VOLPAN 1 0 1 -1
+<       SOFFS 0
+<       PLAYRATE 1 1 0 -1 0 0.0025
+<       CHANMODE 0
+<       GUID {68DFFFC3-F5A1-4108-8442-11FCF28523D3}
+<       <SOURCE WAVE
+<         FILE "03-guitar raw 1-201123_2123-01-glued.wav"
+<       >
+<     >
+<     <ITEM
+374c386
+<       LENGTH 20.21052631585117
+---
+>       LENGTH 20.21052631585118
+395c407
+<       POSITION 123.78947368421052
+---
+>       POSITION 123.78947368427229
+397c409
+<       LENGTH 10.10526315789474
+---
+>       LENGTH 10.10526315782108
+402a415
+>       COLOR 27092408 R
+404,406c417,419
+<       IGUID {CAED0FB1-98E2-4798-AD87-0ED8C8A9157C}
+<       IID 202
+<       NAME "03-guitar raw 1-201120_0210.wav"
+---
+>       IGUID {E2715439-B6A5-4F95-9FA4-793ABDCAD685}
+>       IID 415
+>       NAME "05-guitar raw2-201209_0139-01-glued.wav"
+408c421
+<       SOFFS 1.26315192743763
+---
+>       SOFFS 0
+411,412c424
+<       GUID {06E18345-B381-49FA-92A9-0C53D808D5F4}
+<       RECPASS 96
+---
+>       GUID {42E30943-BF74-4D7A-B7DA-1DB36C831C44}
+414c426
+<         FILE "03-guitar raw 1-201120_0210.wav"
+---
+>         FILE "05-guitar raw2-201209_0139-01-glued.wav"
+418c430
+<       POSITION 133.89473684210526
+---
+>       POSITION 133.89473684209338
+420c432
+<       LENGTH 20.2105263158511
+---
+>       LENGTH 20.21052631585113
+441c453
+<       POSITION 154.10526315796847
+---
+>       POSITION 154.1052631577474
+443c455
+<       LENGTH 10.10526315782101
+---
+>       LENGTH 10.10526315786402
+450,472d461
+<       IGUID {EEE3B4F2-6789-4DA5-9475-5D4E7696A734}
+<       IID 202
+<       NAME "03-guitar raw 1-201120_0210.wav"
+<       VOLPAN 1 0 1 -1
+<       SOFFS 1.26315192743763
+<       PLAYRATE 1 1 0 -1 0 0.0025
+<       CHANMODE 0
+<       GUID {79523517-FF93-4BF4-91B1-2202FD7278FE}
+<       RECPASS 96
+<       <SOURCE WAVE
+<         FILE "03-guitar raw 1-201120_0210.wav"
+<       >
+<     >
+<     <ITEM
+<       POSITION 164.21052631586321
+<       SNAPOFFS 0
+<       LENGTH 10.1052631578639
+<       LOOP 1
+<       ALLTAKES 0
+<       FADEIN 1 0.01 0 1 0 0
+<       FADEOUT 1 0.01 0 1 0 0
+<       MUTE 0
+<       SEL 0
+487c476
+<       POSITION 174.31578947367208
+---
+>       POSITION 164.21052631555625
+510c499
+<       POSITION 194.52631578946142
+---
+>       POSITION 185.68421052616844
+512c501
+<       LENGTH 20.21052631587568
+---
+>       LENGTH 20.2105263158756
+533c522
+<       POSITION 214.73796395758646
+---
+>       POSITION 205.89585869429291
+535c524
+<       LENGTH 2.84210526315809
+---
+>       LENGTH 2.84210526315854
+580c569
+<       WNDRECT 24 52 527 390
+---
+>       WNDRECT 666 387 557 320
+582c571
+<       LASTSEL 0
+---
+>       LASTSEL 1
+593a583,592
+>       BYPASS 0 0 0
+>       <VST "VST: GGate (GVST)" GGate.dll 0 "" 1735999846<56535467794166676761746500000000> ""
+>         ZkF5Z+9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAFAAAAAAAAAAAABAA
+>         776t3g3wrd5SuJ49AAAAAArXIzw=
+>         QmFzaWMgZ2F0ZQBCYXNpYyBnYXRlABAAAAA=
+>       >
+>       PRESETNAME "Basic gate"
+>       FLOATPOS 0 0 0 0
+>       FXID {3AA4A878-0741-4107-9303-3CBF66A59C85}
+>       WAK 0
+598c597
+<       LENGTH 40.42105263159733
+---
+>       LENGTH 40.42105859889653
+603a603
+>       COLOR 22518158 R
+605,607c605,607
+<       IGUID {98A33F20-DF01-4E21-A9C8-DA5BFE496F6A}
+<       IID 157
+<       NAME "03-guitar raw 1-201119_2229.wav"
+---
+>       IGUID {A4EA621C-F56E-4D6C-BEC1-F44B96A71A7F}
+>       IID 398
+>       NAME "04-guitar raw 1-201209_0045-01-glued.wav"
+609c609
+<       SOFFS 1.26316386201766
+---
+>       SOFFS 0
+612,613c612
+<       GUID {6554E700-05F6-4035-B323-24B4A6CA8C61}
+<       RECPASS 70
+---
+>       GUID {F3DAB5CD-CD47-40F3-8141-9DD502B6FD2F}
+615c614
+<         FILE "03-guitar raw 1-201119_2229.wav"
+---
+>         FILE "04-guitar raw 1-201209_0045-01-glued.wav"
+644c643
+<       LENGTH 20.21052631578947
+---
+>       LENGTH 20.21052154195016
+649a649
+>       COLOR 22518158 R
+651,653c651,653
+<       IGUID {625CD34E-B7D9-4CDE-8276-7F907F3D8AD3}
+<       IID 157
+<       NAME "03-guitar raw 1-201119_2229.wav"
+---
+>       IGUID {262097B5-BFED-4EB4-AB4D-15D0A41C065D}
+>       IID 398
+>       NAME "04-guitar raw 1-201209_0045-01-glued.wav"
+655,677d654
+<       SOFFS 1.26316386201766
+<       PLAYRATE 1 1 0 -1 0 0.0025
+<       CHANMODE 0
+<       GUID {CE71BCD5-0C90-438B-80B8-91F2AB1F12FE}
+<       RECPASS 70
+<       <SOURCE WAVE
+<         FILE "03-guitar raw 1-201119_2229.wav"
+<       >
+<     >
+<     <ITEM
+<       POSITION 83.36842105263158
+<       SNAPOFFS 0
+<       LENGTH 10.10526315789464
+<       LOOP 1
+<       ALLTAKES 0
+<       FADEIN 1 0.01 0 1 0 0
+<       FADEOUT 1 0.01 0 1 0 0
+<       MUTE 0
+<       SEL 0
+<       IGUID {6DAB4208-914A-4CF3-8CBB-DEF601CDCE46}
+<       IID 265
+<       NAME "03-guitar raw 1-201123_2122-glued.wav"
+<       VOLPAN 1 0 1 -1
+681c658
+<       GUID {7DB4AF13-8809-4482-B468-5B8872979CD7}
+---
+>       GUID {1040FC64-DDB8-41C7-8B04-B61EE442C68B}
+683c660
+<         FILE "03-guitar raw 1-201123_2122-glued.wav"
+---
+>         FILE "04-guitar raw 1-201209_0045-01-glued.wav"
+687c664
+<       POSITION 93.47368421052622
+---
+>       POSITION 83.36841627879225
+689c666
+<       LENGTH 10.10526315789474
+---
+>       LENGTH 28.42105740541827
+696,698c673,675
+<       IGUID {8012EDA5-B8EF-4CEF-9E5D-2201C83DCF56}
+<       IID 269
+<       NAME "03-guitar raw 1-201123_2124-glued.wav"
+---
+>       IGUID {01A21B38-22B5-4B55-B0C1-35ED2AEBD0F1}
+>       IID 409
+>       NAME "05-guitar raw2-201209_0055.wav"
+700c677
+<       SOFFS 0
+---
+>       SOFFS 2.52630743525484
+703c680,681
+<       GUID {44EA7059-C647-43E4-8404-E8F1659C9BE1}
+---
+>       GUID {3B6EE21E-0F1A-497E-A005-8DC53A7ADBEA}
+>       RECPASS 138
+705c683
+<         FILE "03-guitar raw 1-201123_2124-glued.wav"
+---
+>         FILE "05-guitar raw2-201209_0055.wav"
+709c687
+<       POSITION 103.57894736842111
+---
+>       POSITION 111.78947368421052
+711c689
+<       LENGTH 20.21052631585117
+---
+>       LENGTH 12.00000000006176
+722c700
+<       SOFFS 1.26316505543416
+---
+>       SOFFS 9.47369137122357
+732c710
+<       POSITION 123.78947368421052
+---
+>       POSITION 123.78947368427229
+734c712
+<       LENGTH 10.10526315789474
+---
+>       LENGTH 10.10526315782108
+739a718
+>       COLOR 24474944 R
+741,743c720,722
+<       IGUID {1C6DAD2D-BCE5-4782-9B7F-9AAA0FB73748}
+<       IID 201
+<       NAME "03-guitar raw 1-201120_0209.wav"
+---
+>       IGUID {37B7EE4C-9CC6-40A0-8605-DD4BCC77CEA6}
+>       IID 416
+>       NAME "05-guitar raw2-201209_0139-02-glued.wav"
+745c724
+<       SOFFS 1.26315192743763
+---
+>       SOFFS 0
+748,749c727
+<       GUID {14DF2FCB-2581-4759-83A5-E13171D82C25}
+<       RECPASS 95
+---
+>       GUID {58257DA3-18E8-47D6-8481-99B9664648A9}
+751c729
+<         FILE "03-guitar raw 1-201120_0209.wav"
+---
+>         FILE "05-guitar raw2-201209_0139-02-glued.wav"
+755c733
+<       POSITION 133.89473684210526
+---
+>       POSITION 133.89473684209338
+757c735
+<       LENGTH 20.2105263158511
+---
+>       LENGTH 20.21052631585113
+778c756
+<       POSITION 154.10526315796847
+---
+>       POSITION 154.1052631577474
+780c758
+<       LENGTH 10.10526315782101
+---
+>       LENGTH 10.10526315780885
+787,809d764
+<       IGUID {31ADD734-72B7-401D-90DD-ED25C4C32D49}
+<       IID 201
+<       NAME "03-guitar raw 1-201120_0209.wav"
+<       VOLPAN 1 0 1 -1
+<       SOFFS 1.26315192743763
+<       PLAYRATE 1 1 0 -1 0 0.0025
+<       CHANMODE 0
+<       GUID {DB627D7D-DF56-460B-A7CD-2ABF9E118665}
+<       RECPASS 95
+<       <SOURCE WAVE
+<         FILE "03-guitar raw 1-201120_0209.wav"
+<       >
+<     >
+<     <ITEM
+<       POSITION 164.21052631586321
+<       SNAPOFFS 0
+<       LENGTH 10.10526315780888
+<       LOOP 1
+<       ALLTAKES 0
+<       FADEIN 1 0.01 0 1 0 0
+<       FADEOUT 1 0.01 0 1 0 0
+<       MUTE 0
+<       SEL 0
+824c779
+<       POSITION 174.31578947367208
+---
+>       POSITION 164.21052631555625
+847c802
+<       POSITION 194.52631578946142
+---
+>       POSITION 185.68421052616844
+849c804
+<       LENGTH 20.21164816812504
+---
+>       LENGTH 20.21164816812421
+870c825
+<       POSITION 214.73796395758646
+---
+>       POSITION 205.89585869429291
+872c827
+<       LENGTH 2.84210526315809
+---
+>       LENGTH 2.84210526315854
+914c869
+<     AUXRECV 2 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+---
+>     AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+1024c979
+<     AUXRECV 2 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+---
+>     AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+1171c1126
+<     AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+---
+>     AUXRECV 4 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+1281c1236
+<     AUXRECV 3 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+---
+>     AUXRECV 4 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+1412c1367
+<     VOLPAN 0.48115947521659 0 -1 -1 1
+---
+>     VOLPAN 0.20224078858311 0 -1 -1 1
+1419c1374
+<     SEL 1
+---
+>     SEL 0
+1435c1390
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1445c1400
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1459c1414
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1475a1431,1635
+>     <ITEM
+>       POSITION 2.52631578947368
+>       SNAPOFFS 0
+>       LENGTH 40.42104308388185
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {68E62345-73CC-45F5-AAB4-30E932472CA2}
+>       IID 527
+>       NAME 10-bass-201211_0123-glued.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 0
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {3D756E1B-8BC6-4980-B85B-597E660D6E02}
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0123-glued.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 42.94736842105263
+>       SNAPOFFS 0
+>       LENGTH 20.21052631578947
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {AE995C92-C21A-48CC-9643-831DE4BFA4CC}
+>       IID 520
+>       NAME 10-bass-201211_0128-01.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 2.5263253371524
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {DD05545A-6452-4FFA-8BD0-5BF6F0F86982}
+>       RECPASS 147
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0128-01.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 63.1578947368421
+>       SNAPOFFS 0
+>       LENGTH 20.21052154195015
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {B0F8A771-2F8F-435B-8A69-B6EAECBF2FB9}
+>       IID 527
+>       NAME 10-bass-201211_0123-glued.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 0
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {8C7C1EDC-3A81-48B6-B4EA-D3E62A5D6BC1}
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0123-glued.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 83.36842105263158
+>       SNAPOFFS 0
+>       LENGTH 20.21052631578948
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {EEE6E86E-9AEB-4448-BCF3-DFD93E69FCDB}
+>       IID 521
+>       NAME 10-bass-201211_0132.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 2.52631220909416
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {6A57E6FB-C101-4EE2-991F-A8FAF7606FEE}
+>       RECPASS 148
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0132.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 103.57894736842105
+>       SNAPOFFS 0
+>       LENGTH 20.21052631585124
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       COLOR 27736924 R
+>       SEL 0
+>       IGUID {7E2C9092-F439-4489-A363-612D655FFF12}
+>       IID 530
+>       NAME 10-bass-201211_0132-glued.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 0
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {D37FA134-59C4-494D-AA00-DF95589782F9}
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0132-glued.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 123.7894736841986
+>       SNAPOFFS 0
+>       LENGTH 10.10526315790666
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {65D1FA2F-7883-490F-A993-5FAB0CAFC5E0}
+>       IID 522
+>       NAME 10-bass-201211_0134.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 2.52632175676095
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {F2CC4EFC-146B-438C-92AE-E12ACBA6D686}
+>       RECPASS 149
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0134.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 133.89473684210526
+>       SNAPOFFS 0
+>       LENGTH 20.21052631585118
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       COLOR 27736924 R
+>       SEL 0
+>       IGUID {3F29E4DE-6BEB-4393-A748-EE82B244411D}
+>       IID 530
+>       NAME 10-bass-201211_0132-glued.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 0
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {C4881F46-43A2-4FFB-83B9-C7ABB6AD3B18}
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0132-glued.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 154.10526315795644
+>       SNAPOFFS 0
+>       LENGTH 30.31578947362252
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {E8AA4CF8-E506-4691-B754-01D718241842}
+>       IID 525
+>       NAME 10-bass-201211_0137-02.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 2.52630624185667
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {A4CE0CDC-8D54-44E7-947C-BC6936F63562}
+>       RECPASS 152
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0137-02.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 185.68421052631578
+>       SNAPOFFS 0
+>       LENGTH 23.05375343113568
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {9555A492-FD2F-427D-86A3-F153D6FA47E5}
+>       IID 526
+>       NAME 10-bass-201211_0140.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 1.26316744241555
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {4F253DC7-FE1F-4A4D-B086-143606334F5C}
+>       RECPASS 153
+>       <SOURCE WAVE
+>         FILE "10-bass-201211_0140.wav"
+>       >
+>     >
+1476a1637,1660
+>   <TRACK {8CC9BCF6-3596-42B0-AF9B-613F56699A3E}
+>     NAME "bass hide"
+>     PEAKCOL 16576
+>     BEAT -1
+>     AUTOMODE 0
+>     VOLPAN 1 0 -1 -1 1
+>     MUTESOLO 1 0 0
+>     IPHASE 0
+>     ISBUS 0 0
+>     BUSCOMP 0 0
+>     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+>     FREEMODE 0
+>     SEL 1
+>     REC 0 0 0 0 0 0 0
+>     VU 2
+>     TRACKHEIGHT 0 0 0
+>     INQ 0 0 0 0.5 100 0 0 100
+>     NCHAN 2
+>     FX 1
+>     TRACKID {8CC9BCF6-3596-42B0-AF9B-613F56699A3E}
+>     PERF 0
+>     MIDIOUT -1
+>     MAINSEND 1 0
+>   >
+1482,1483c1666,1667
+<     VOLPAN 2.45012649086439 0 -1 -1 1
+<     MUTESOLO 0 0 0
+---
+>     VOLPAN 3.98107170553497 0 -1 -1 1
+>     MUTESOLO 1 0 0
+1490c1674
+<     REC 1 1 1 0 0 0 0
+---
+>     REC 0 1 1 0 0 0 0
+1501c1685
+<       WNDRECT 1022 315 1332 494
+---
+>       WNDRECT 1022 315 977 429
+1503c1687
+<       LASTSEL 2
+---
+>       LASTSEL 1
+1505c1689
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1516c1700
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1518,1519c1702,1703
+<         cktrdO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAA+AMAAAEAAAAAABAA
+<         VkMyIe8DAAA8S3J1c2ggcGx1Z2luRWRpdG9yV2lkdGg9Ijc1MCIgcGx1Z2luRWRpdG9ySGVpZ2h0PSIzMTYiIGlzTWlkaUVuYWJsZWQ9IjAiIGlzTWlkaVByb2dyYW1D
+---
+>         cktrdO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAA9wMAAAEAAAAAABAA
+>         VkMyIe4DAAA8S3J1c2ggcGx1Z2luRWRpdG9yV2lkdGg9Ijc1MCIgcGx1Z2luRWRpdG9ySGVpZ2h0PSIzMTYiIGlzTWlkaUVuYWJsZWQ9IjAiIGlzTWlkaVByb2dyYW1D
+1525,1529c1709,1713
+<         YXNzV2V0U2lnbmFsPSIwIiBkcnlXZXRMaW5rPSIwIiBkcml2ZT0iMTAwIiBkcml2ZU1vZERlcHRoPSIzNC44MDAwMDA1MTg1NjA0MDk1NDYiIGNydXNoPSIxOC44MDAw
+<         MDAyODAxNDE4MzA0NDQiIGNydXNoTW9kRGVwdGg9IjI1LjYwMDAwMDM4MTQ2OTcyNjU2MyIgZG93bnNhbXA9IjAiIGRvd25zYW1wTW9kRGVwdGg9IjAiIGJ5cGFzc0Zp
+<         bHRlcj0iMCIgZmlsdGVyVHlwZT0iMCIgbG93cGFzc0ZyZXE9IjgwMDAiIGxvd3Bhc3NSZXM9IjAiIGhpcGFzc0ZyZXE9IjIwIiBoaXBhc3NSZXM9IjAiIGZpbHRlckZy
+<         ZXFNb2REZXB0aD0iNDguMDAwMDAwNzE1MjU1NzM3MzA1IiBmaWx0ZXJSZXNNb2REZXB0aD0iMCIgbGZvU3luY09yRnJlZT0iMCIgbGZvRnJlZVJhdGU9IjAiIGxmb1N5
+<         bmNlZFBlcmlvZD0iMTkiIGxmb1dhdmVmb3JtPSIwIi8+PE1JRElNQVBQSU5HLz48L0tydXNoPgA=
+---
+>         YXNzV2V0U2lnbmFsPSIwIiBkcnlXZXRMaW5rPSIwIiBkcml2ZT0iNTYuNzk5OTk5MjM3MDYwNTQ2ODc1IiBkcml2ZU1vZERlcHRoPSIzNC43OTk5OTkyMzcwNjA1NDY4
+>         NzUiIGNydXNoPSIxOC44MDAwMDExNDQ0MDkxNzk2ODgiIGNydXNoTW9kRGVwdGg9IjI1LjYwMDAwMDM4MTQ2OTcyNjU2MyIgZG93bnNhbXA9IjAiIGRvd25zYW1wTW9k
+>         RGVwdGg9IjAiIGJ5cGFzc0ZpbHRlcj0iMCIgZmlsdGVyVHlwZT0iMCIgbG93cGFzc0ZyZXE9IjgwMDAiIGxvd3Bhc3NSZXM9IjAiIGhpcGFzc0ZyZXE9IjIwIiBoaXBh
+>         c3NSZXM9IjAiIGZpbHRlckZyZXFNb2REZXB0aD0iNDgiIGZpbHRlclJlc01vZERlcHRoPSIwIiBsZm9TeW5jT3JGcmVlPSIwIiBsZm9GcmVlUmF0ZT0iMCIgbGZvU3lu
+>         Y2VkUGVyaW9kPSIxOSIgbGZvV2F2ZWZvcm09IjAiLz48TUlESU1BUFBJTkcvPjwvS3J1c2g+AA==
+1535c1719
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1547c1731,1778
+<       POSITION 1.26315192743764
+---
+>       POSITION 21.47368421052632
+>       SNAPOFFS 0
+>       LENGTH 85.22767633369138
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {698BA086-6A1E-43A3-A63F-27F4FC864651}
+>       IID 380
+>       NAME 11-vocals-201208_0937.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 18.94738035565103
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {4E4A1B1B-B99B-4D7D-BD08-B600E7434009}
+>       RECPASS 133
+>       <SOURCE WAVE
+>         FILE "11-vocals-201208_0937.wav"
+>       >
+>     >
+>   >
+>   <TRACK {7E325587-0EA1-40AD-AA60-053217824A0C}
+>     NAME vocals
+>     PEAKCOL 16576
+>     BEAT -1
+>     AUTOMODE 0
+>     VOLPAN 1 0 -1 -1 1
+>     MUTESOLO 1 0 0
+>     IPHASE 0
+>     ISBUS 0 0
+>     BUSCOMP 0 0
+>     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+>     FREEMODE 0
+>     SEL 0
+>     REC 0 0 0 0 0 0 0
+>     VU 2
+>     TRACKHEIGHT 0 0 0
+>     INQ 0 0 0 0.5 100 0 0 100
+>     NCHAN 2
+>     FX 1
+>     TRACKID {7E325587-0EA1-40AD-AA60-053217824A0C}
+>     PERF 0
+>     MIDIOUT -1
+>     MAINSEND 1 0
+>     <ITEM
+>       POSITION 2.5263157894553
+1549c1780
+<       LENGTH 218.07764172335601
+---
+>       LENGTH 121.26315789475522
+1560c1791
+<       SOFFS 0
+---
+>       SOFFS 1.26316386206673
+1568a1800,1891
+>     <ITEM
+>       POSITION 123.7894736841986
+>       SNAPOFFS 0
+>       LENGTH 10.10526315789478
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {728EF774-2EB6-496A-A677-CE12C788D335}
+>       IID 472
+>       NAME 10-vocals-201202_1442-01.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 152.84211123050616
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {BFB43509-87A2-4545-90FB-F3C4D69DB6AF}
+>       RECPASS 116
+>       <SOURCE WAVE
+>         FILE "10-vocals-201202_1442-01.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 133.89473684209338
+>       SNAPOFFS 0
+>       LENGTH 20.21052631578965
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {925B50FF-45AC-45FA-8702-9F3089FA1D84}
+>       IID 496
+>       NAME 10-vocals-201202_1442-01.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 132.63158491471671
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {08462973-6110-405F-AF79-202B913042E4}
+>       RECPASS 116
+>       <SOURCE WAVE
+>         FILE "10-vocals-201202_1442-01.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 154.10526315767359
+>       SNAPOFFS 0
+>       LENGTH 30.31578947361038
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {F45254A1-EFD5-4A0A-9A4E-EB9F5579287E}
+>       IID 419
+>       NAME 10-vocals-201202_1442-01.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 162.9473743884009
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {41E32DE0-428B-42C0-B5B5-6BBC40C2855A}
+>       RECPASS 116
+>       <SOURCE WAVE
+>         FILE "10-vocals-201202_1442-01.wav"
+>       >
+>     >
+>     <ITEM
+>       POSITION 185.68421052610708
+>       SNAPOFFS 0
+>       LENGTH 24.81447786134493
+>       LOOP 1
+>       ALLTAKES 0
+>       FADEIN 1 0.01 0 1 0 0
+>       FADEOUT 1 0.01 0 1 0 0
+>       MUTE 0
+>       SEL 0
+>       IGUID {7D35A826-7DBD-4AFA-9262-D71B95D007DD}
+>       IID 456
+>       NAME 10-vocals-201202_1442-01.wav
+>       VOLPAN 1 0 1 -1
+>       SOFFS 193.26316386201134
+>       PLAYRATE 1 1 0 -1 0 0.0025
+>       CHANMODE 0
+>       GUID {FE6FC50D-1875-4CC3-B8DC-10B839D9389F}
+>       RECPASS 116
+>       <SOURCE WAVE
+>         FILE "10-vocals-201202_1442-01.wav"
+>       >
+>     >
+1575c1898
+<     VOLPAN 1.67748946805408 0 -1 -1 1
+---
+>     VOLPAN 1.88829815772236 0 -1 -1 1
+1594,1595c1917,1918
+<       WNDRECT 1000 513 1172 695
+<       SHOW 0
+---
+>       WNDRECT 4239 375 1172 695
+>       SHOW 1
+1615c1938
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1626c1949
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1628c1951
+<         100.000000 13100.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+---
+>         70.000000 8900.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+1633c1956
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+1643c1966
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+3804c4127
+<       POSITION 123.78947368421052
+---
+>       POSITION 123.78947368427229
+3806c4129
+<       LENGTH 10.10526315789474
+---
+>       LENGTH 10.10526315783297
+3813c4136
+<       IGUID {1B4CD834-A02E-425F-BB4A-A322BF081E10}
+---
+>       IGUID {13C33DAA-5904-4AC4-8402-36FC3C0138FA}
+3820c4143
+<       GUID {B1D98F7F-512D-4CFE-9155-8F9026952D44}
+---
+>       GUID {84DA1C57-BF31-4D1A-9810-38D64A28E240}
+3823c4146
+<         POOLEDEVTS {F2125306-3C72-4756-B27F-2059AAD14F7B}
+---
+>         POOLEDEVTS {E7A91E88-15A0-4A8B-80B5-150CE6D64495}
+3947c4270
+<       POSITION 133.89473684210526
+---
+>       POSITION 133.89473684209338
+3949c4272
+<       LENGTH 20.21052631578951
+---
+>       LENGTH 20.21052631578965
+4393,4536c4716
+<       POSITION 154.10526315796847
+<       SNAPOFFS 0
+<       LENGTH 10.10526315789474
+<       LOOP 1
+<       ALLTAKES 0
+<       FADEIN 1 0 0 1 0 0
+<       FADEOUT 1 0 0 1 0 0
+<       MUTE 0
+<       SEL 0
+<       IGUID {13C33DAA-5904-4AC4-8402-36FC3C0138FA}
+<       IID 194
+<       NAME BM_220_chorus_01.mid
+<       VOLPAN 1 0 1 -1
+<       SOFFS 0 0
+<       PLAYRATE 1 1 0 -1 0 0.0025
+<       CHANMODE 0
+<       GUID {84DA1C57-BF31-4D1A-9810-38D64A28E240}
+<       <SOURCE MIDI
+<         HASDATA 1 9600 QN
+<         POOLEDEVTS {E7A91E88-15A0-4A8B-80B5-150CE6D64495}
+<         E 0 90 24 7f
+<         E 65 90 3c 7f
+<         E 118 90 31 7f
+<         E 1017 90 24 00
+<         E 65 90 3c 00
+<         E 118 90 31 00
+<         E 8127 90 3c 22
+<         E 1200 90 3c 00
+<         E 8545 90 26 7f
+<         E 169 90 3c 7f
+<         E 1031 90 26 00
+<         E 169 90 3c 00
+<         E 8364 90 3c 2f
+<         E 1200 90 3c 00
+<         E 8226 90 24 7f
+<         E 231 90 3c 7f
+<         E 969 90 24 00
+<         E 231 90 3c 00
+<         E 8251 90 3c 38
+<         E 1200 90 3c 00
+<         E 8350 90 26 7e
+<         E 275 90 3c 7f
+<         E 925 90 26 00
+<         E 275 90 3c 00
+<         E 8213 90 3c 30
+<         E 1200 90 3c 00
+<         E 3810 90 26 1b
+<         E 1200 90 26 00
+<         E 945 90 26 2f
+<         E 1200 90 26 00
+<         E 1176 90 24 7f
+<         E 151 90 3c 7f
+<         E 1049 90 24 00
+<         E 151 90 3c 00
+<         E 8291 90 3c 1d
+<         E 1200 90 3c 00
+<         E 8390 90 26 7f
+<         E 275 90 3c 7f
+<         E 925 90 26 00
+<         E 275 90 3c 00
+<         E 8107 90 3c 37
+<         E 1200 90 3c 00
+<         E 8348 90 24 7f
+<         E 288 90 3c 7f
+<         E 912 90 24 00
+<         E 288 90 3c 00
+<         E 7964 90 3c 34
+<         E 1200 90 3c 00
+<         E 8578 90 26 7f
+<         E 302 90 3c 7f
+<         E 898 90 26 00
+<         E 302 90 3c 00
+<         E 8086 90 24 7b
+<         E 131 90 3c 55
+<         E 1069 90 24 00
+<         E 131 90 3c 00
+<         E 3317 90 24 75
+<         E 1200 90 24 00
+<         E 3781 90 24 7f
+<         E 186 90 31 7f
+<         E 585 90 31 00
+<         E 429 90 24 00
+<         E 8404 90 26 28
+<         E 38 90 3c 2a
+<         E 1162 90 26 00
+<         E 38 90 3c 00
+<         E 8357 90 26 7f
+<         E 253 90 3c 7f
+<         E 947 90 26 00
+<         E 253 90 3c 00
+<         E 7988 90 3c 38
+<         E 1200 90 3c 00
+<         E 8534 90 24 7f
+<         E 30 90 3c 7f
+<         E 1170 90 24 00
+<         E 30 90 3c 00
+<         E 8322 90 3c 2f
+<         E 1200 90 3c 00
+<         E 8516 90 26 7f
+<         E 209 90 3c 7f
+<         E 991 90 26 00
+<         E 209 90 3c 00
+<         E 8128 90 3c 3a
+<         E 1200 90 3c 00
+<         E 3760 90 26 1a
+<         E 1200 90 26 00
+<         E 945 90 26 2d
+<         E 1200 90 26 00
+<         E 1350 90 24 7f
+<         E 51 90 3c 7f
+<         E 1149 90 24 00
+<         E 51 90 3c 00
+<         E 8322 90 3c 2c
+<         E 1200 90 3c 00
+<         E 8422 90 26 7f
+<         E 62 90 3c 7f
+<         E 1138 90 26 00
+<         E 62 90 3c 00
+<         E 8349 90 3c 33
+<         E 1200 90 3c 00
+<         E 8352 90 24 7f
+<         E 88 90 3c 7f
+<         E 1112 90 24 00
+<         E 88 90 3c 00
+<         E 8277 90 24 74
+<         E 72 90 3c 5e
+<         E 1128 90 24 00
+<         E 72 90 3c 00
+<         E 8343 90 26 7f
+<         E 128 90 31 7f
+<         E 1072 90 26 00
+<         E 128 90 31 00
+<         E 8160 90 24 6a
+<         E 1200 90 24 00
+<         E 8466 b0 7b 00
+<         CHASE_CC_TAKEOFFS 1
+<         GUID {B2418604-B5D5-4358-9488-ADA0BDA3A811}
+<         IGNTEMPO 0 120 4 4
+<         SRCCOLOR 177
+<         VELLANE -1 100 0
+<       >
+<     >
+<     <ITEM
+<       POSITION 164.21052631586321
+---
+>       POSITION 154.1052631577474
+4665c4845
+<       POSITION 174.31578947375797
+---
+>       POSITION 164.21052631564217
+4667c4847
+<       LENGTH 20.2105263157035
+---
+>       LENGTH 20.21052631570336
+4914c5094
+<       POSITION 194.52631578947367
+---
+>       POSITION 185.68421052618061
+4916c5096
+<       LENGTH 20.21052631578954
+---
+>       LENGTH 20.21052631578914
+5360c5540
+<       POSITION 214.73796395770293
+---
+>       POSITION 205.89585869440967
+5362c5542
+<       LENGTH 2.84210526304162
+---
+>       LENGTH 2.84210526304199
+5700d5879
+<     AUXRECV 4 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+5703a5883
+>     AUXRECV 8 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+5707c5887
+<       WNDRECT 1045 470 947 578
+---
+>       WNDRECT 906 347 1332 494
+5709c5889
+<       LASTSEL 1
+---
+>       LASTSEL 2
+5711c5891
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+5727c5907
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+5730c5910
+<         776t3g3wrd6rqio+rdqMPl7q9z1l9AY/AAAAP6uqKj8AAIA/AACAP/tdPz9z9M0+SjI/PwAAAACrqio/AACAPwAAgD8JhVU/JUkSP21yrD4AAEA/q6oqPwAAgD8AAIA/
+---
+>         776t3g3wrd6rqio+rdqMPl7q9z1l9AY/AAAAP6uqKj8AAIA/AACAP/tdPz9z9M0+SjI/PwAAAACrqio/AACAPwAAgD+OvFo/IpYKP21yrD4AAEA/q6oqPwAAgD8AAIA/
+5745,5757c5925,5930
+<       BYPASS 1 0 0
+<       <VST "VST: MyFilter EQ (MyFilter)" "MyFilter EQ x64.dll" 0 "" 1179668850<5653544650517266616266696C746572> ""
+<         clFQRu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAQAMAAAAAAAAAABAA
+<         776t3g3wrd6rqio95dVeP5AVCD8AAAA/AABAP6uqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/
+<         jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/
+<         AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/
+<         AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/
+<         AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/
+<         AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/
+<         AAAAPwAAAD8AAAAAq6oqPwAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAKuqKj8AAIA/AACAP40/Ez8AAAA/AAAAPwAAAACrqio/AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+<         q6oqPwAAgD8AAIA/AAAAPwAAAD8AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAACrqqo+q6oqPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+<         RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+---
+>       BYPASS 0 0 0
+>       <VST "VST3: OrilRiver (Denis Tihanov)" OrilRiver.vst3 0 "" 171394604{D6FAE8EBF87044EF9AAB360BB521FC19} ""
+>         LEY3Cu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAtwAAAAEAAAD//xAA
+>         pwAAAAEAAAAFAAAAAAAAAAAAAGAxL+0/exSuR+F6hD/2KFyPwvXsP3SVc60K1cY/4XoUrkfh4j/hehSuR+HqP5qZmZmZme0/yvTptmhm6j9ZkPtv2/XjP61H4XoUrts/
+>         zZUHXgXZ5D97FK5H4XrcP/zLtSO4Fto/AAAAAAAAAAAAAAAgx+TqPwAAAAAAAPA/AAAAYP0u1z8EBAAAAAAAqxLs6c3L1T97FK5H4XrgPwAAAAAAAAAA
+>         AAAQAAAA
+5759d5931
+<       PRESETNAME "Default Setting"
+5761c5933
+<       FXID {2214C556-0746-49B9-B288-C1AACF309B5F}
+---
+>       FXID {D46769E7-D9CB-41B1-AB59-D43A8149D6BC}
+5786d5957
+<     AUXRECV 8 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+5788d5958
+<     AUXRECV 10 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+5789a5960,5961
+>     AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+>     AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+5797c5969
+<       BYPASS 1 0 0
+---
+>       BYPASS 0 0 0
+5800c5972
+<         776t3g3wrd4AAAAAAAAAAAAAAD8AAAAAqagoPZeWlj0AAAAAAAAAPw==
+---
+>         776t3g3wrd4AAAAAAAAAAAAAAD8AAAAA6+rqPZeWFj4AAAAAAAAAPw==
+
+==== //studio/main/reaper/reaper-midihw.ini#13 (text+w) ====
+
+4c4
+< ot0=1606916880
+---
+> ot0=1607645422
+13c13
+< ot2=1606916880
+---
+> ot2=1607645422
+199c199
+< it1=1606916880
+---
+> it1=1607645422
+
+==== //studio/main/reaper/reaper-recentfx.ini#12 (text+w) ====
+
+4c4
+< Name0=D:\_studio\reaper\vst\PaulXStretch.dll
+---
+> Name0=D:\_studio\reaper\vst\La Petite Excite.vst3
+8c8
+< Name2=D:\_studio\reaper\vst\Krush.dll
+---
+> Name2=D:\_studio\reaper\vst\MyFilter\EQ\MyFilter EQ x64.dll
+10c10
+< Name3=D:\_studio\reaper\vst\MyFilter\ECC\MyFilter ECC x64.dll
+---
+> Name3=D:\_studio\reaper\vst\MyFilter\MeeB\MyFilter MeeB x64.dll
+12,14c12,14
+< Name4=D:\_studio\reaper\vst\La Petite Excite.vst3
+< Type5=3
+< Name5=D:\_studio\reaper\vst\MyFilter\EQ\MyFilter EQ x64.dll
+---
+> Name4=D:\_studio\reaper\vst\IVGI2.vst3
+> Type5=2
+> Name5=sstillwell/hpflpf
+16c16
+< Name6=D:\_studio\reaper\vst\MyFilter\MeeB\MyFilter MeeB x64.dll
+---
+> Name6=D:\_studio\reaper\vst\MyFilter\ECC\MyFilter ECC x64.dll
+18,20c18,20
+< Name7=D:\_studio\reaper\vst\IVGI2.vst3
+< Type8=2
+< Name8=sstillwell/hpflpf
+---
+> Name7=D:\_studio\reaper\vst\MT-PowerDrumKit.dll
+> Type8=3
+> Name8=D:\_studio\reaper\vst\Krush.dll
+22c22
+< Name9=D:\_studio\reaper\vst\MT-PowerDrumKit.dll
+---
+> Name9=D:\_studio\reaper\vst\BOD_x64.dll
+24c24
+< Name10=D:\_studio\reaper\vst\BOD_x64.dll
+---
+> Name10=D:\_studio\reaper\vst\pedals\TSE R47.dll
+36c36
+< Name16=D:\_studio\reaper\vst\synths\Vital.vst3
+---
+> Name16=D:\_studio\reaper\vst\GGate.dll
+38c38
+< Name17=D:\_studio\reaper\vst\CloudSeed.dll
+---
+> Name17=D:\_studio\reaper\Plugins\FX\reaeq.dll
+40c40
+< Name18=D:\_studio\reaper\Plugins\FX\reaeq.dll
+---
+> Name18=D:\_studio\reaper\Plugins\FX\reaverb.dll
+45,46c45,46
+< Type21=2
+< Name21=loser/masterLimiter
+---
+> Type21=3
+> Name21=D:\_studio\reaper\vst\PaulXStretch.dll
+48c48
+< Name22=D:\_studio\reaper\Plugins\FX\reaxcomp.dll
+---
+> Name22=D:\_studio\reaper\vst\synths\Vital.vst3
+50c50
+< Name23=D:\_studio\reaper\Plugins\FX\reacontrolmidi.dll
+---
+> Name23=D:\_studio\reaper\vst\CloudSeed.dll
+52c52
+< Name24=Liteon/pseudostereo
+---
+> Name24=loser/masterLimiter
+54,56c54,56
+< Name25=D:\_studio\reaper\vst\BIAS_AMP2_x64.dll
+< Type26=2
+< Name26=loser/stereoEnhancer
+---
+> Name25=D:\_studio\reaper\Plugins\FX\reaxcomp.dll
+> Type26=3
+> Name26=D:\_studio\reaper\Plugins\FX\reacontrolmidi.dll
+58c58
+< Name27=Liteon/ringmodulator
+---
+> Name27=Liteon/pseudostereo
+60,62c60,62
+< Name28=D:\_studio\reaper\Plugins\FX\reaverb.dll
+< Type29=3
+< Name29=D:\_studio\reaper\vst\MyFilter\MeeB\MyFilter MeeB (Mono) x64.dll
+---
+> Name28=D:\_studio\reaper\vst\BIAS_AMP2_x64.dll
+> Type29=2
+> Name29=loser/stereoEnhancer
+
+==== //studio/main/reaper/reaper-reginfo2.ini#13 (text+w) ====
+
+2c2
+< uss=1635E25A6B331300CC0200000000000000000000A93F11F7104B6481866D1F4DB93F131EC0E86F0CE1
+---
+> uss=1635E25A52AB1300DB02000000000000000000009BAF8A78B4F7FDC27C4BB195DF5CAA53EB2D7D0105
+
+==== //studio/main/reaper/reaper.ini#13 (text+w) ====
+
+4c4
+< mixwnd_vis=0
+---
+> mixwnd_vis=1
+13,16c13,16
+< wnd_x=266
+< wnd_y=50
+< wnd_w=2210
+< wnd_h=1286
+---
+> wnd_x=561
+> wnd_y=113
+> wnd_w=1915
+> wnd_h=1223
+341,342c341,342
+< renderwnd_x=705
+< renderwnd_y=218
+---
+> renderwnd_x=1270
+> renderwnd_y=165
+438,486c438,486
+< recent01=D:\_studio\projects\synth sounds\reese bass.rpp
+---
+> recent49=D:\_studio\projects\synth sounds\reese bass2.rpp
+490,505c490,505
+< RecentFX01=paul
+< RecentFX02=vital
+< RecentFX03=river
+< RecentFX04=comp
+< RecentFX05=verb
+< RecentFX06=ott
+< RecentFX07=bass
+< RecentFX08=Pendulate
+< RecentFX09=808
+< RecentFX10=crun
+< RecentFX11=reve
+< RecentFX12=high
+< RecentFX13=low pa
+< RecentFX14=low
+< RecentFX15=ring
+< RecentFX16=stereo
+---
+> RecentFX01=gat
+> RecentFX02=paul
+> RecentFX03=vital
+> RecentFX04=river
+> RecentFX05=comp
+> RecentFX06=verb
+> RecentFX07=ott
+> RecentFX08=bass
+> RecentFX09=Pendulate
+> RecentFX10=808
+> RecentFX11=crun
+> RecentFX12=reve
+> RecentFX13=high
+> RecentFX14=low pa
+> RecentFX15=low
+> RecentFX16=ring
+509c509
+< lastview=1043
+---
+> lastview=1041
+561,562c561,562
+< window_x=704
+< window_y=208
+---
+> window_x=1327
+> window_y=135
