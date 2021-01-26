@@ -5,13 +5,17 @@
     "description": "perforce utils",
     "license": "MIT",
     "scripts": {
-        "test": "cd test && node test"
+        "test": "cd tests && node test"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/shukriadams/madscience-perforcehelper.git"
     },
+    "dependencies": {
+        "madscience-node-exec": "https://github.com/shukriadams/node-exec.git#0.0.6"
+    },
     "devDependencies": {
-        "custom-env": "1.0.0"
+        "custom-env": "1.0.0",
+        "madscience-node-assert": "https://github.com/shukriadams/node-assert.git#0.0.5"
     }
 }
