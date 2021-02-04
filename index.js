@@ -55,11 +55,17 @@ module.exports = {
         let description =  find(rawDescribe, /\n(.*?)\nAffected files .../is),
             files = [],
             // affected files is large block listing all files which have been affected by revision
-            affectedFiles = find(rawDescribe, /\nAffected files ...\n(.*?)\nDifferences .../is).split('\n'),
+            affectedFiles = find(rawDescribe, /\nAffected files ...\n(.*?)\nDifferences .../is),
             // multiline grab
-            differences = find(rawDescribe, /\nDifferences ...\n(.*)/is).split('\n==== ')
+            differences = find(rawDescribe, /\nDifferences ...\n(.*)/is)
 
+        affectedFiles = affectedFiles || ''
+        affectedFiles = affectedFiles.split('\n')
 
+        differences = differences || ''
+        differences = differences.split('\n==== ')
+        description = description || ''
+        
         for (const affectedFile of affectedFiles){
             const match = affectedFile.match(/... (.*)#[\d]+ (delete|add|edit)$/i)
             if (!match || match.length < 2)
