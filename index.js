@@ -37,7 +37,26 @@ module.exports = {
      *      files : OBJECT (see below)
      * }
      * 
+     * Input looks like
+     *
+     * Change 0001 by p4bob@wors-space on 2021/01/25 14:38:07
+     *   
+     *      Lots of changes
+     *
+     * Affected files ...
+     *
+     * ... //mydepot/mystream/path/to/file.txt#2 edit
+     *
+     * Differences ...
+     *
+     * ==== //mydepot/mystream/path/to/file.txt#2 (text) ====
      * 
+     * 65c65,68
+     * <       some hello worlding
+     * ---
+     * >       farewhatever
+     *
+     *
      * Files objects have the following string members. File is the path
      * { 
      *      file : STRING. Path of file in depot, 
