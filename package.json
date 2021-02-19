@@ -12,7 +12,7 @@
         "url": "https://github.com/shukriadams/madscience-perforcehelper.git"
     },
     "dependencies": {
-        "madscience-node-exec": "https://github.com/shukriadams/node-exec.git#0.0.6"
+        "madscience-node-exec": "https://github.com/shukriadams/node-exec.git#0.0.7"
     },
     "devDependencies": {
         "custom-env": "1.0.0",
