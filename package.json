@@ -16,6 +16,6 @@
     },
     "devDependencies": {
         "custom-env": "1.0.0",
-        "madscience-node-assert": "https://github.com/shukriadams/node-assert.git#0.0.5"
+        "madscience-node-assert": "https://github.com/shukriadams/node-assert.git#0.0.6"
     }
 }

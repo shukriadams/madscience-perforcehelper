@@ -1,13 +1,22 @@
 const exec = require('madscience-node-exec'),
-    standardLineEndings = (text) =>{
+    /**
+     * Converts windows line endings to unix
+     */
+    standardLineEndings = text =>{
         return text.replace(/\r\n/g, '\n')
     },
+    /**
+     * tries to match the regex with the text, if found, returns result, else null 
+     */
     find = (text, regex) =>{
         const lookup = text.match(regex)
         return lookup ? lookup.pop() : null
     },
     p4EnsureSession = async(username, password, host)=>{
-        await exec.sh({ cmd : `p4 set P4USER=${username} && p4 set P4PORT=${host} && echo ${password} | p4 login`})
+        //await exec.sh({ cmd : `p4 set P4USER=${username} && p4 set P4PORT=${host} && echo ${password}| p4 login`})
+        await exec.sh({ cmd : `p4 set P4USER=${username}`})
+        await exec.sh({ cmd : `p4 set P4PORT=${host}`})
+        await exec.sh({ cmd : `echo ${password}| p4 login`})
     }
 
 module.exports = {
@@ -18,7 +27,29 @@ module.exports = {
      */
     async getDescribe(username, password, host, revision){
         await p4EnsureSession(username, password, host) 
-        const p4result = await exec.sh({ cmd : ` p4 describe ${revision}`})
+        const p4result = await exec.sh({ cmd : `p4 describe ${revision}`})
+        if (p4result.code !== 0)
+            throw changes
+
+        return p4result.result
+    },
+
+
+    /**
+     * gets annotation (blame) on a given file
+     * @param {string} username perforce user
+     * @param {string} password perforce password
+     * @param {string} host perforce address
+     * @param {string} filePath to remote server to blame on. does not work on local files as no client is set here
+     * @param {string} revision optional : a revision to take blame at
+     */
+    async getAnnotate(username, password, host, filePath, revision = ''){
+        await p4EnsureSession(username, password, host)
+
+        if (revision && !revision.startsWith('#')) 
+            revision = `#{revision}`
+
+        const p4result = await exec.sh({ cmd : `p4 annotate -c ${filePath}${revision}`})
         if (p4result.code !== 0)
             throw changes
 
@@ -121,6 +152,63 @@ module.exports = {
             username : find(rawDescribe, /change [\d]+ by (.*)@/i) ,
             files,
             description
+        }
+    },
+
+
+    /**
+     * Parses annotate message from perforce. Message format looks like (all chevrons are mine)
+     * 
+     * //path/to/file - edit change <REVISION NR> (filetype)
+     * <REVISION NR>: line 1 content
+     * <REVISION NR>: line 2 content
+     * <etc>.
+     * 
+     * Output is an object with structure :
+     * {
+     *     {string} revision : revision at which annotation was taken
+     *     {string} file : file path of annotated file
+     *     {string} type : (delete|add|edit)
+     *     {Line} lines : array of Lines objects. Note that array index of object
+     * }
+     * 
+     * Line object structure :
+     * {
+     *     {string} revision : revision that changed this line
+     *     {string} text : line text
+     *     {number} number : line nr. Matches array index.
+     * }
+     */
+    parseAnnotate(rawAnnotate){
+        // convert all windows linebreaks to unix 
+        rawAnnotate = standardLineEndings(rawAnnotate)
+        let lines = rawAnnotate.split('\n').filter (line => !!line), // split + remove empty
+            revision = null,
+            file = null,
+            linesArray = []
+
+        // parse out first line, this contains descriptoin
+        if (lines.length > 0){
+            file = find(lines[0], /^(.*?) -/)
+            revision = find(lines[0], / change (.*?) \(/)
+            type = find(lines[0], / - (.*?) change/)
+        }
+
+        if (lines.length > 1)
+            // note we start start 2nd item in array
+            for (let i = 1; i < lines.length ; i ++){
+                const line = { }
+                linesArray.push(line)
+                line.revision = find(lines[i], /^(.*?):/)
+                line.text = find(lines[i], /:(.*)$/)
+                line.number = i - 1
+            }
+
+        return {
+            file,
+            type,
+            revision,
+            lines : linesArray
         }
     },
 
