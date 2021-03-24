@@ -201,7 +201,7 @@ module.exports = {
                 linesArray.push(line)
                 line.revision = find(lines[i], /^(.*?):/)
                 line.text = find(lines[i], /:(.*)$/)
-                line.number = i - 1
+                line.number = i 
             }
 
         return {
