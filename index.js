@@ -41,13 +41,10 @@ module.exports = {
      * @param {string} password perforce password
      * @param {string} host perforce address
      * @param {string} filePath to remote server to blame on. does not work on local files as no client is set here
-     * @param {string} revision optional : a revision to take blame at
+     * @param {string} revision optional : a revision to take blame at. To lookup at a specific revision 1234 use "@1234"
      */
     async getAnnotate(username, password, host, filePath, revision = ''){
         await p4EnsureSession(username, password, host)
-
-        if (revision && !revision.startsWith('#')) 
-            revision = `#${revision}`
 
         const p4result = await exec.sh({ cmd : `p4 annotate -c ${filePath}${revision}`})
         if (p4result.code !== 0)
