@@ -29,7 +29,7 @@ module.exports = {
         await p4EnsureSession(username, password, host) 
         const p4result = await exec.sh({ cmd : `p4 describe ${revision}`})
         if (p4result.code !== 0)
-            throw changes
+            throw p4result
 
         return p4result.result
     },
@@ -47,11 +47,11 @@ module.exports = {
         await p4EnsureSession(username, password, host)
 
         if (revision && !revision.startsWith('#')) 
-            revision = `#{revision}`
+            revision = `#${revision}`
 
         const p4result = await exec.sh({ cmd : `p4 annotate -c ${filePath}${revision}`})
         if (p4result.code !== 0)
-            throw changes
+            throw p4result
 
         return p4result.result
     },
@@ -185,6 +185,7 @@ module.exports = {
         let lines = rawAnnotate.split('\n').filter (line => !!line), // split + remove empty
             revision = null,
             file = null,
+            type = null,
             linesArray = []
 
         // parse out first line, this contains descriptoin
@@ -270,7 +271,7 @@ module.exports = {
         const maxModifier = max ? `-m ${max}`:``
         const p4result = await exec.sh({ cmd : ` p4 changes ${maxModifier} -l ${path} `})
         if (p4result.code !== 0)
-            throw changes
+            throw p4result
 
         return p4result.result
     }
